@@ -1,0 +1,21 @@
+:root {
+    --dark-blue: #06487b;
+    --bright-blue: #4c8dfc;
+    --rust: #b15959;
+    --sand: #e7bfa4;
+    --pale-blue: #aacbcf;
+    --white: white;
+}
+
+.header-look {
+    background-color: var(--dark-blue);
+    color: var(--pale-blue);
+}
+
+.header-link {
+    color: var(--pale-blue) !important;
+}
+
+.header-link:hover {
+    color: var(--white) !important;
+}
