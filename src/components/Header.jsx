@@ -4,7 +4,7 @@
 function Header({ currentPage, handlePageChange }) {
     return <>
       
-  <nav className="navbar navbar-expand-lg border-bottom header-look">
+  <nav className="navbar navbar-expand-lg border-bottom header-look py-5">
     <div className="container-fluid">
     <h1>Phillip Pfister</h1>
     <div>

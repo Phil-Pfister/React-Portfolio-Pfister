@@ -7,6 +7,10 @@
     --white: white;
 }
 
+#root {
+    background-color: var(--sand);
+}
+
 .header-look {
     background-color: var(--dark-blue);
     color: var(--pale-blue);
@@ -18,4 +22,13 @@
 
 .header-link:hover {
     color: var(--white) !important;
+}
+
+.contact-icon {
+    font-size: 10rem;
+    color: var(--dark-blue)
+}
+
+.about-card {
+    height: 70%;
 }
