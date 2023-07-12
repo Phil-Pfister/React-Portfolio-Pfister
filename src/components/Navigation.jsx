@@ -13,7 +13,7 @@ function Project() {
 
     const renderPage = () => {
         if (currentPage === 'Portfolio') {
-            return <div className="row justify-content-around">{works.map((work) => <Portfolio 
+            return <div className="row justify-content-around port-con">{works.map((work) => <Portfolio 
                 key={work.id}
                 name={work.name}
                 image={work.image}

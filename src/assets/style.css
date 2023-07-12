@@ -1,6 +1,6 @@
 :root {
     --dark-blue: #06487b;
-    --bright-blue: #4c8dfc;
+    --bright-blue: rgb(119, 180, 234); 
     --rust: #b15959;
     --sand: #e7bfa4;
     --pale-blue: #aacbcf;
@@ -8,20 +8,25 @@
 }
 
 #root {
-    background-color: var(--sand);
+    background-color: var(--pale-blue);
+    
+}
+
+h2 {
+    text-decoration: none !important;
 }
 
 .header-look {
     background-color: var(--dark-blue);
-    color: var(--pale-blue);
+    color: var(--white);
 }
 
 .header-link {
-    color: var(--pale-blue) !important;
+    color: var(--white) !important;
 }
 
 .header-link:hover {
-    color: var(--white) !important;
+    color: rgb(119, 180, 234) !important;
 }
 
 .contact-icon {
@@ -33,8 +38,28 @@
     height: 70%;
 }
 
+.port-con {
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+
 .port-card {
-    width: 30rem;
-    height: max-content;
+   
+    width: fit-content;
     margin-top: 100px;
+}
+
+.image-size {
+    height: 250px;
+    width: 500px;
+}
+
+.card-icon {
+    color: var(--rust);
+    font-size: 2rem;
+}
+
+.error-message {
+    color: red;
+    font-size: 1.5rem;
 }
