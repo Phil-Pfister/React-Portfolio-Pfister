@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 
 
-import Project from "./components/Project"
+import Navigation from "./components/Navigation"
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <Project />
+      <Navigation />
       
     </>
   )

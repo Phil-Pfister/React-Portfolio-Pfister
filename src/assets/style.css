@@ -32,3 +32,9 @@
 .about-card {
     height: 70%;
 }
+
+.port-card {
+    width: 30rem;
+    height: max-content;
+    margin-top: 100px;
+}
