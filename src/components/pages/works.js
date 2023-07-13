@@ -1,3 +1,4 @@
+// works object array - mapped in navigation page
 const works = [
     {
         id: 1,

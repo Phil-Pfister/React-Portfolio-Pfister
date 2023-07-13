@@ -1,5 +1,5 @@
-// import React from 'react';
 
+// resume page
 export default function Resume() {
 
     return <div className="container res-con">
