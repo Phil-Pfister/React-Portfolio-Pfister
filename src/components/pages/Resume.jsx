@@ -1,10 +1,11 @@
-
+import resume from '../../assets/images/cv-pfister2023.pdf'
 // resume page
 export default function Resume() {
 
-    return <div className="container res-con">
+    return <div className="container res-con min-vh-100">
         <h2>Resume</h2>
-        <h2>Front-end Proficiencies</h2>
+        <a href={resume} download="Resume"><h3>Click here for PDF</h3></a>
+        <h3>Front-end Proficiencies</h3>
         <ul>
             <li>HTML</li>
             <li>CSS</li>

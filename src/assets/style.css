@@ -30,7 +30,7 @@ h2 {
 }
 
 .header-link:hover {
-    color: rgb(119, 180, 234) !important;
+    color: var(--bright-blue) !important;
 }
 
 .contact-icon {
@@ -39,7 +39,7 @@ h2 {
 }
 
 .about-card {
-    height: 70%;
+    width: 50rem;
 }
 
 .port-con {
@@ -49,8 +49,10 @@ h2 {
 
 .port-card {
    
-    width: fit-content;
+    width:fit-content;
     margin-top: 100px;
+    background-color: var(--sand);
+    padding: 0;
 }
 
 .image-size {

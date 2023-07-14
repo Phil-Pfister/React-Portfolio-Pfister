@@ -2,12 +2,12 @@
 import image from "../../assets/images/phil-pic.jpg"
 export default function AboutMe() {
   return (
-    <div className="container row mt-5 min-vh-100 d-flex justify-content-around">
-    <div className="card col-6 text-center about-card">
-    <div className="card-body">
-      <h2 className="card-title">About Me</h2>
+    <div className="container-fluid mt-5 d-flex flex-wrap flex-row justify-content-around min-vh-100">
+    <div className="text-center about-card">
+    <div>
+      <h2>About Me</h2>
       <h4>
-        Welcome to my website! I started my career in television production in the 90s 
+        Welcome to my website! <br/>I started my career in television production in the 90s 
         and have worked for various television stations for 20 years.
         Over that time tv production has gotten more digital and automated 
         and I found myself really drawn to how things worked.
@@ -19,7 +19,7 @@ export default function AboutMe() {
       </h4>
       </div>
       </div>
-      <div className="col-4">
+      <div className="">
       <img src={image} alt='Photo of me at my desk'></img>
       </div>
       
