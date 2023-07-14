@@ -7,6 +7,7 @@ import Resume from './pages/Resume';
 import Header from './Header';
 import Footer from './Footer';
 
+// Page to render individual pages based on user choices
 
 function Navigation() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -28,6 +29,8 @@ function Navigation() {
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
+
+    // returns the current page between header and footer
 
     return <div>
         <Header currentPage={currentPage} handlePageChange={handlePageChange} />

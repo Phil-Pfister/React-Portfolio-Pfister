@@ -1,6 +1,9 @@
 import works from './works'
 import Portfolio from './Portfolio'
 
+// maps over portfolio component adding props to each entry
+//Exported to Navigation component for rendering
+
 export default function Project() {
     
     return <div className="row d-flex justify-content-around port-con">

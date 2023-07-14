@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
 
 
-
+// single portfolio card premapping - mapped in project component
+// props for image, title, alt image, github link, and deployed url 
 
 export default function Portfolio(props) {
     

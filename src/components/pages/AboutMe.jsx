@@ -4,6 +4,7 @@ export default function AboutMe() {
   return (
     <div className="container-fluid mt-5 d-flex flex-wrap flex-row justify-content-around min-vh-100">
     <div className="text-center about-card">
+    {/* about section */}
     <div>
       <h2>About Me</h2>
       <h4>
@@ -19,6 +20,7 @@ export default function AboutMe() {
       </h4>
       </div>
       </div>
+      {/* picture */}
       <div className="">
       <img src={image} alt='Photo of me at my desk'></img>
       </div>
