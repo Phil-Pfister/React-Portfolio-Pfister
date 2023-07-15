@@ -15,8 +15,8 @@
 - [Description](#description)
 - [Usage](#usage)
 - [Installation](#installation)
-- [Contributing](#contributing)
-- [Questions](#questions)
+- [Contributing](#credits)
+- [Links](#links-and-screenshots)
 - [License](#license)
 
 ## Description
@@ -43,9 +43,27 @@ Fork the repo and install on your local machine. Run `npm i` to install the depe
 
 This app was created by Phillip Pfister as a project for the Rice University Fullstack coding bootcamp.
 
-## Tests
+## Links and Screenshots
 
 ---
+
+Visit the deployed website here [https://phil-pfister.github.io/React-Portfolio-Pfister/](https://phil-pfister.github.io/React-Portfolio-Pfister/)
+
+### About Page
+
+![About page](./screenshots/about.png)
+
+### Portfolio Page
+
+![Portfolio page](./screenshots/projects.png)
+
+### Contact Form
+
+![Contact page](./screenshots/contact.png)
+
+### Resume Page
+
+![Resume page](./screenshots/resume.png)
 
 ## Contact Information
 
