@@ -1,6 +1,4 @@
 /* eslint-disable react/prop-types */
-
-
 // header component with links to choose various endpoints
 // props to tell Navigation component which page is current based on Navbar link click handler
 

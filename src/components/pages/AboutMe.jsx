@@ -1,4 +1,3 @@
-// import React from 'react';
 import image from "../../assets/images/phil-pic.jpg"
 export default function AboutMe() {
   return (

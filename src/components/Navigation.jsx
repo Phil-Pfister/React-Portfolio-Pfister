@@ -1,4 +1,3 @@
-// import React from 'react';
 import { useState } from 'react';
 import AboutMe from './pages/AboutMe';
 import Project from './pages/Project';
