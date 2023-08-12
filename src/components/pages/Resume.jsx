@@ -1,4 +1,4 @@
-import resume from '../../assets/images/cv-pfister2023.pdf'
+import resume from '../../assets/images/Phillip Pfister_Resume2023.pdf'
 // resume page
 export default function Resume() {
 
